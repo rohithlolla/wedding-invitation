@@ -47,3 +47,23 @@ copyBtn.addEventListener("click", async () => {
     }, 2500);
 
 });
+const whatsappBtn = document.getElementById("whatsapp-share");
+
+whatsappBtn.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    const text = `💍 You're warmly invited to our wedding!
+
+🌸 Janaki Rama Raju & Shoba Rani
+
+📅 19 August 2026
+
+Please join us and bless us.
+
+${window.location.href}`;
+
+    const whatsappURL =
+        `https://wa.me/?text=${encodeURIComponent(text)}`;
+
+    window.open(whatsappURL, "_blank");
+});
