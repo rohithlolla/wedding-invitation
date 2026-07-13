@@ -1133,3 +1133,41 @@ img{
 
     transform:translateY(0);
 }
+@media (max-width:768px){
+
+.hero-title{
+    font-size:52px;
+}
+
+.hero-content{
+    width:92%;
+}
+
+.countdown{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.time-box{
+    width:75px;
+    height:75px;
+}
+
+.save-date{
+    flex-direction:column;
+    gap:40px;
+}
+
+.event-cards{
+    grid-template-columns:1fr;
+}
+
+.parents-container{
+    flex-direction:column;
+}
+
+.footer{
+    text-align:center;
+}
+
+}
