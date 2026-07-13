@@ -1,0 +1,35 @@
+/* ===========================
+   MOBILE RESPONSIVE
+=========================== */
+
+@media screen and (max-width:768px){
+
+    .hero{
+        padding:30px 20px;
+    }
+
+    .hero-title{
+        font-size:50px;
+        line-height:1.2;
+    }
+
+    .subtitle{
+        font-size:16px;
+        padding:0 10px;
+    }
+
+    .countdown{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:10px;
+    }
+
+    .separator{
+        display:none;
+    }
+
+    .time-box{
+        width:70px;
+        height:70px;
+    }
+}
