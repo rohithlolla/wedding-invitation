@@ -103,14 +103,15 @@ img{
 
 .hero-content{
 
-   width:min(90%,1000px);
+    position:relative;
 
-    z-index:2;
+    z-index:3;
+
+    width:min(90%,1000px);
 
     text-align:center;
 
-    color:white;
-
+    color:#fff;
 }
 
 .tagline{
