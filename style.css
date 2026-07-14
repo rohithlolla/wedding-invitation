@@ -127,23 +127,40 @@ img{
 }
 
 .hero h1{
-    font-size:110px;
-    font-family:'Cormorant Garamond', serif;
-    font-weight:500;
+    font-size:80px;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-weight:300; 
 }
 .hero-title{
-
-    font-family:"Cormorant Garamond",serif;
-
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-weight:300;      /* 500 kaadhu */
+    letter-spacing:-0.03em;
+    line-height:0.9;
     color:#fff;
+    text-shadow:0 2px 12px rgba(0,0,0,.18);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:8px;
+}
+.hero-title .name{
+    display:block;
+}
 
-    font-size:clamp(58px,7vw,110px);
-
+.hero-title .ampersand{
+    display:block;
+   font-size:0.75em;
     line-height:1;
+}
+@media(max-width:768px){
 
-    font-weight:500;
+.hero-title{
 
-    margin-bottom:25px;
+    font-size:78px;
+
+    line-height:0.92;
+
+}
 
 }
 
@@ -155,15 +172,17 @@ img{
 
 .subtitle{
 
-    color:#fff;
+    color:#ffffffac;
 
-    font-size:28px;
+   font-size:20px;
 
     line-height:1.8;
 
     max-width:780px;
 
     margin:0 auto 45px;
+
+    font-style:italic;
 
 }
 .divider{
@@ -293,13 +312,13 @@ img{
 
 .verse h2{
 
-    font-family:'Cormorant Garamond',serif;
+    font-family: "Cormorant Garamond", Georgia, serif;
 
-    font-size:54px;
+    font-size:30px;
 
     font-style:italic;
 
-    font-weight:400;
+    font-weight:100;
 
     color:#2b3b33;
 
@@ -319,9 +338,9 @@ img{
 
     letter-spacing:4px;
 
-    font-size:22px;
+    font-size:15px;
 
-    font-weight:600;
+    font-weight:300;
 
     font-family:Poppins,sans-serif;
 
@@ -445,7 +464,7 @@ img{
     color:#93b46d;
     font-size:15px;
     letter-spacing:3px;
-    font-weight:600;
+    font-weight:400;
 }
 
 .small-title{
@@ -464,29 +483,29 @@ img{
 
 .save-content h2{
     font-family:'Cormorant Garamond',serif;
-    font-size:65px;
+    font-size: 3rem;
     color:#1f3b2e;
     margin:20px 0;
     line-height:1.1;
 }
 
 .save-content p{
-    color:#666;
+    color:#666666a2;
     line-height:1.9;
-    font-size:20px;
+    font-size:17px;
     margin-bottom:25px;
 }
 
 .invite-box{
     margin-top:30px;
-    background:#faf8f3;
+    background:#f2eae2;
     border:1px solid #ddd;
     padding:25px;
     border-radius:20px;
 }
 
 .invite-box strong{
-    font-size:28px;
+    font-size:24px;
     font-family:'Cormorant Garamond',serif;
     color:#1f3b2e;
 }
@@ -511,9 +530,9 @@ img{
 
     display:block;
     color:#98b876;
-    font-size:18px;
+    font-size:15px;
     letter-spacing:3px;
-    font-weight:600;
+    font-weight:400;
     font-family:'Poppins',sans-serif;
 
 }
@@ -521,8 +540,8 @@ img{
 .section-title h2{
 
     margin:18px 0 25px;
-    font-size:68px;
-    font-weight:500;
+    font-size:40px;
+    font-weight:300;
     color:#23352d;
     font-family:'Cormorant Garamond',serif;
 
@@ -570,7 +589,7 @@ img{
 
 .parent-box h4{
 
-    font-size:18px;
+    font-size:12px;
     letter-spacing:3px;
     margin-bottom:25px;
     font-weight:600;
@@ -589,7 +608,7 @@ img{
 
 .small-text{
 
-    font-size:22px;
+    font-size:17px;
     color:#777;
     margin-bottom:20px;
     font-family:'Poppins',sans-serif;
@@ -598,7 +617,7 @@ img{
 
 .parent-box h3{
 
-    font-size:44px;
+    font-size:28px;
     line-height:1.4;
     color:#22342d;
     font-weight:500;
@@ -609,7 +628,7 @@ img{
 .and{
 
     margin:18px 0;
-    font-size:42px;
+    font-size:28px;
     color:#98b876;
     font-family:'Cormorant Garamond',serif;
 
@@ -680,7 +699,7 @@ img{
 
 .event-card h3{
     font-family:'Cormorant Garamond', serif;
-    font-size:42px;
+    font-size:32px;
     color:#234232;
     margin-bottom:30px;
     border-bottom:1px solid #ddd;
@@ -714,7 +733,7 @@ img{
     text-decoration:none;
     padding:18px;
     border-radius:50px;
-    font-size:18px;
+    font-size:13px;
     font-weight:600;
     transition:.3s;
 }
@@ -765,7 +784,7 @@ img{
 
 .section-tag{
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -775,7 +794,7 @@ img{
 
 .section-title{
     font-family: 'Cormorant Garamond', serif;
-    font-size: 64px;
+    font-size: 44px;
     font-weight: 500;
     color: #24352c;
     line-height: 1.1;
@@ -893,9 +912,9 @@ img{
 .calendar-btn:hover{
 
     background:transparent; /* Background change avvadhu */
-    color:#bf6d79;
+    color:#e1808e;
 
-    border-color:#bf6d79;
+    border-color:#d27886;
 
     box-shadow:
         0 0 0 3px rgba(191,109,121,.12),
@@ -905,7 +924,8 @@ img{
 }
 
 .calendar-btn span{
-    font-size:20px;
+    font-size:8px;
+    font-weight:400;
 }
 .footer-invite{
 
@@ -931,7 +951,7 @@ img{
 .footer-content h2{
 
     font-family:"Cormorant Garamond",serif;
-    font-size:54px;
+    font-size:35px;
     color:#1f4035;
     font-weight:500;
     margin-bottom:25px;
@@ -939,11 +959,12 @@ img{
 
 .footer-text{
 
-    font-size:20px;
+    font-size:15px;
     line-height:1.9;
     color:#777;
     max-width:650px;
     margin:0 auto 45px;
+    font-style:italic;
 }
 
 .share-title{
@@ -1044,7 +1065,7 @@ img{
 
     font-family:"Cormorant Garamond",serif;
 
-    font-size:50px;
+    font-size:30px;
 
     font-style:italic;
 
