@@ -1154,3 +1154,22 @@ img{
 
     transform:translateY(0);
 }
+.couple-names{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    margin:0;
+    line-height:1.2;
+    font-family:"Cormorant Garamond", serif;
+}
+
+.couple-names span{
+    display:block;
+}
+
+.couple-names .and{
+    margin:8px 0;
+    font-size:0.8em;
+    color:#c98993; /* optional */
+}
