@@ -498,7 +498,7 @@ section{
 .parents-container{
     display:flex;
     flex-direction:column;
-    gap:70px;          /* Groom & Bride madhya gap */
+    gap:90px;        /* Groom & Bride madhya gap */
     align-items:center;
 }
 
@@ -528,5 +528,7 @@ section{
     font-size:38px;
     margin:20px 0;
 }
-
+.parent-box:first-child{
+    margin-bottom:40px;
+}
 }
