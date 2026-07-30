@@ -702,14 +702,18 @@ img{
 }
 
 .event-card{
-    flex:0 1 650px;
-    max-width:650px;
-    min-height:780px;
-    padding:45px 40px;
+    
+      width:600px;
+    min-width:600px;
+    max-width:600px;
+
     background:#fff;
-    border-radius:30px;
-    border:1px solid #eee;
+    border-radius:25px;
+    padding:45px 40px;
+
     box-shadow:0 15px 40px rgba(0,0,0,.08);
+    transition:.4s;
+    border:1px solid #eee;
 }
 
 .event-card:hover{
@@ -854,10 +858,11 @@ img{
 
 }
 .event-cards{
-   display: flex;
-    justify-content: center;
-    align-items: stretch;
-    gap: 60px;
+    display:flex;
+    justify-content:center;
+    align-items:stretch;
+    gap:60px;
+    flex-wrap:nowrap;
 }
 .event-icon{
 
