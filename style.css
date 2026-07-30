@@ -2,6 +2,8 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+ -webkit-tap-highlight-color:transparent;
+ 
 }
 
 html{
@@ -16,11 +18,7 @@ body{
     padding-bottom:env(safe-area-inset-bottom);
     width:100%;
 }
-*{
-
--webkit-tap-highlight-color:transparent;
-
-}
+ 
 button{
 
 appearance:none;
@@ -53,9 +51,10 @@ img{
 .hero{
 
     position:relative;
-
+    
     min-height:100svh;
     min-height:100dvh;
+    padding:30px 20px 70px;
 
     display:flex;
 
@@ -80,6 +79,8 @@ img{
     object-fit:cover;
 
     z-index:1;
+    
+object-position:48% center;
 }
 
 /* Dark Overlay */
@@ -129,6 +130,7 @@ img{
     text-align:center;
 
     color:#fff;
+    padding-top:20px;
 }
 
 .tagline{
@@ -152,13 +154,14 @@ img{
     font-family: "Cormorant Garamond", Georgia, serif;
     font-weight:300;      /* 500 kaadhu */
     letter-spacing:-0.03em;
-   line-height:1.05;
+  line-height:1.08;
     color:#fff;
     text-shadow:0 2px 12px rgba(0,0,0,.18);
     display:flex;
     flex-direction:column;
     align-items:center;
     gap:8px;
+    font-size:48px;
 }
 .hero-title .name{
     display:block;
@@ -193,15 +196,11 @@ img{
 
    font-size:20px;
 
-    line-height:1.8;
-
-    max-width:780px;
-
-    margin:0 auto 45px;
-
-    font-style:italic;
-
-}
+    line-height:1.8;  
+    max-width:320px;
+     margin:auto;
+   font-style:italic;
+ }
 .divider{
 
     display:flex;
@@ -238,13 +237,13 @@ img{
 
 .countdown{
 
-    display:flex;
+    display:grid;
 
     justify-content:center;
 
     align-items:center;
 
-    gap:30px;
+    gap:10px;
 
     width:620px;
 
@@ -259,6 +258,8 @@ img{
     background:rgba(255,255,255,.18);
 
     backdrop-filter:blur(15px);
+    
+    grid-template-columns:repeat(4,1fr);
 
 }
 
@@ -281,6 +282,13 @@ img{
     letter-spacing:2px;
 
     color:white;
+
+}
+.time-box{
+
+width:auto;
+
+height:80px;
 
 }
 
@@ -307,6 +315,7 @@ img{
     font-size:14px;
 
     transition:.3s;
+    margin-bottom:35px;
 
 }
 
