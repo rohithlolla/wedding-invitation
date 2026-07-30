@@ -152,7 +152,7 @@ img{
     font-family: "Cormorant Garamond", Georgia, serif;
     font-weight:300;      /* 500 kaadhu */
     letter-spacing:-0.03em;
-    line-height:0.9;
+   line-height:1.05;
     color:#fff;
     text-shadow:0 2px 12px rgba(0,0,0,.18);
     display:flex;
@@ -561,6 +561,7 @@ img{
     font-size:40px;
     font-weight:300;
     color:#23352d;
+    line-height:1.2;
     font-family:'Cormorant Garamond',serif;
 
 }
@@ -817,6 +818,7 @@ img{
     color: #24352c;
     line-height: 1.1;
     margin-bottom: 25px;
+    padding:0 15px;
 }
 
 .section-divider{
