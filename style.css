@@ -698,7 +698,7 @@ img{
     display:flex;
     justify-content:center;
     gap:60px;
-    flex-wrap:nowrap;   
+    flex-wrap:wrap;   
 }
 
 .event-card{
