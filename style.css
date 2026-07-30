@@ -6,7 +6,6 @@
 
 html{
     scroll-behavior:smooth;
-    -webkit-text-size-adjust:100%;
 }
 
 body{
@@ -14,22 +13,8 @@ body{
     overflow-x:hidden;
     background:#ffffff;
     padding-bottom:env(safe-area-inset-bottom);
-    width:100%;
 }
-*{
-
--webkit-tap-highlight-color:transparent;
-
-}
-button{
-
-appearance:none;
-
--webkit-appearance:none;
-
-border-radius:0;
-
-}
+ 
 
 a{
     text-decoration:none;
@@ -42,7 +27,6 @@ ul{
 img{
     max-width:100%;
     display:block;
-    height:auto;
 }
 
 .container{
@@ -54,8 +38,7 @@ img{
 
     position:relative;
 
-    min-height:100svh;
-    min-height:100dvh;
+    min-height:100vh;
 
     display:flex;
 
@@ -152,7 +135,7 @@ img{
     font-family: "Cormorant Garamond", Georgia, serif;
     font-weight:300;      /* 500 kaadhu */
     letter-spacing:-0.03em;
-   line-height:1.05;
+    line-height:0.9;
     color:#fff;
     text-shadow:0 2px 12px rgba(0,0,0,.18);
     display:flex;
@@ -500,18 +483,17 @@ img{
 
 .save-content h2{
     font-family:'Cormorant Garamond',serif;
-     color:#1f3b2e;
-     margin:20px 0;
-    font-size:38px;
-    line-height:1.28;
-    margin-bottom:25px;
+    font-size: 3rem;
+    color:#1f3b2e;
+    margin:20px 0;
+    line-height:1.1;
 }
 
 .save-content p{
     color:#666666a2;
     line-height:1.9;
     font-size:17px;
-   margin-bottom:35px;
+    margin-bottom:25px;
 }
 
 .invite-box{
@@ -561,7 +543,6 @@ img{
     font-size:40px;
     font-weight:300;
     color:#23352d;
-    line-height:1.2;
     font-family:'Cormorant Garamond',serif;
 
 }
@@ -691,27 +672,21 @@ img{
 ========================== */
 
 .events-container{
-     
-        width:96%;
-    max-width:1600px;
+    width:90%;
+    max-width:1200px;
     margin:60px auto;
     display:flex;
+    gap:40px;
     justify-content:center;
-    gap:60px;
-    flex-wrap:wrap;   
+    flex-wrap:wrap;
 }
 
 .event-card{
-    flex: 1 1 420px;
-      width:600px;
-    min-width:600px;
-    max-width:600px;
-
+    flex:1;
+    min-width:320px;
     background:#fff;
     border-radius:25px;
-    
-    padding: 30px 24px; 
-
+    padding:40px;
     box-shadow:0 15px 40px rgba(0,0,0,.08);
     transition:.4s;
     border:1px solid #eee;
@@ -724,13 +699,12 @@ img{
 
 .event-card h3{
     font-family:'Cormorant Garamond', serif;
-    font-size: 46px; 
+    font-size:32px;
     color:#234232;
-    margin-bottom:35px;
+    margin-bottom:30px;
     border-bottom:1px solid #ddd;
-    padding-bottom:22px;
+    padding-bottom:20px;
 }
- 
 
 .event-info{
     margin-bottom:25px;
@@ -774,7 +748,10 @@ img{
     flex-direction:column;
 }
 
- 
+.event-card{
+    width:100%;
+    padding:30px;
+}
 
 .event-card h3{
     font-size:34px;
@@ -822,7 +799,6 @@ img{
     color: #24352c;
     line-height: 1.1;
     margin-bottom: 25px;
-    padding:0 15px;
 }
 
 .section-divider{
@@ -859,11 +835,10 @@ img{
 
 }
 .event-cards{
-    display:flex;
-    justify-content:center;
-    align-items:stretch;
-    gap:60px;
-    flex-wrap:nowrap;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .event-icon{
 
@@ -913,7 +888,7 @@ img{
 
     width:100%;
     margin-top:16px;
-    padding:15px 18px;
+    padding:15px 20px;
 
     display:flex;
     justify-content:center;
