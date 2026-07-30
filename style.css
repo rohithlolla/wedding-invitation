@@ -6,6 +6,7 @@
 
 html{
     scroll-behavior:smooth;
+    -webkit-text-size-adjust:100%;
 }
 
 body{
@@ -13,8 +14,22 @@ body{
     overflow-x:hidden;
     background:#ffffff;
     padding-bottom:env(safe-area-inset-bottom);
+    width:100%;
 }
- 
+*{
+
+-webkit-tap-highlight-color:transparent;
+
+}
+button{
+
+appearance:none;
+
+-webkit-appearance:none;
+
+border-radius:0;
+
+}
 
 a{
     text-decoration:none;
@@ -27,6 +42,7 @@ ul{
 img{
     max-width:100%;
     display:block;
+    height:auto;
 }
 
 .container{
@@ -38,7 +54,8 @@ img{
 
     position:relative;
 
-    min-height:100vh;
+    min-height:100svh;
+    min-height:100dvh;
 
     display:flex;
 
@@ -483,17 +500,18 @@ img{
 
 .save-content h2{
     font-family:'Cormorant Garamond',serif;
-    font-size: 3rem;
-    color:#1f3b2e;
-    margin:20px 0;
-    line-height:1.1;
+     color:#1f3b2e;
+     margin:20px 0;
+    font-size:38px;
+    line-height:1.28;
+    margin-bottom:25px;
 }
 
 .save-content p{
     color:#666666a2;
     line-height:1.9;
     font-size:17px;
-    margin-bottom:25px;
+   margin-bottom:35px;
 }
 
 .invite-box{
@@ -686,7 +704,7 @@ img{
     min-width:320px;
     background:#fff;
     border-radius:25px;
-    padding:40px;
+    padding:28px 22px;
     box-shadow:0 15px 40px rgba(0,0,0,.08);
     transition:.4s;
     border:1px solid #eee;
@@ -888,7 +906,7 @@ img{
 
     width:100%;
     margin-top:16px;
-    padding:15px 20px;
+    padding:15px 18px;
 
     display:flex;
     justify-content:center;
