@@ -769,10 +769,7 @@ img{
     flex-direction:column;
 }
 
-.event-card{
-    width:100%;
-    padding:30px;
-}
+ 
 
 .event-card h3{
     font-size:34px;
