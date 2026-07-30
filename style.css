@@ -836,7 +836,7 @@ img{
 }
 .event-cards{
     display: flex;
-    gap: 40px;
+    gap: 100px;
     justify-content: center;
     flex-wrap: wrap;
 }
