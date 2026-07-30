@@ -701,14 +701,14 @@ img{
 }
 
 .event-card{
-    flex:1;
-    min-width:320px;
-    background:#fff;
-    border-radius:25px;
-    padding:28px 22px;
-    box-shadow:0 15px 40px rgba(0,0,0,.08);
-    transition:.4s;
-    border:1px solid #eee;
+    flex: 1 1 420px;    /* Bigger card */
+    max-width: 500px;   /* Prevent too much stretching */
+    background: #fff;
+    border-radius: 25px;
+    padding: 38px 32px; /* More inner spacing */
+    box-shadow: 0 15px 40px rgba(0,0,0,.08);
+    transition: .4s;
+    border: 1px solid #eee;
 }
 
 .event-card:hover{
@@ -718,11 +718,11 @@ img{
 
 .event-card h3{
     font-family:'Cormorant Garamond', serif;
-    font-size:32px;
+    font-size: 38px; 
     color:#234232;
-    margin-bottom:30px;
+    margin-bottom:35px;
     border-bottom:1px solid #ddd;
-    padding-bottom:20px;
+    padding-bottom:22px;
 }
 
 .event-info{
@@ -858,7 +858,7 @@ img{
    display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 80px;
+    gap: 60px;
 }
 .event-icon{
 
