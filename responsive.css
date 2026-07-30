@@ -311,13 +311,20 @@
 
     grid-template-columns:1fr;
 
-    gap:25px;
+    gap:30px;
 
 }
 
-.event-card{
+@media (max-width:768px){
 
-    padding:30px 25px;
+    .event-card{
+        width:100%;
+        max-width:100%;
+        padding:24px 20px;
+        border-radius:20px;
+    }
+
+ 
 
 }
 
